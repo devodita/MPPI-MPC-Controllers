@@ -1,1 +1,49 @@
 # MPPI-MPC-Controllers
+
+# MPPI & MPC Controllers
+
+Welcome to my repository! This repo contains implementations of Model Predictive Path Integral (MPPI) and Model Predictive Control (MPC) controllers.
+
+## How to Use This Repo
+
+To get started, clone this repository to your local system:
+```sh
+git clone https://github.com/devodita/MPPI-MPC-Controllers.git
+```
+
+### Running MPC
+1. Navigate to the `MPC` directory:
+   ```sh
+   cd MPC
+   ```
+2. Inside the `MPC` directory, you will find two implementations:
+   - `cascadi/` - Uses **CasADi** for MPC implementation.
+   - `qpsolver/` - A simpler implementation using a **QP solver**.
+3. Choose the implementation you want to run:
+   ```sh
+   cd cascadi  # or cd qpsolver
+   ```
+4. Run the script to see the simulations and visualizations:
+   ```sh
+   python filename.py  # change filename as per requirement
+   ```
+
+### Running MPPI
+1. Navigate to the `mppi` directory:
+   ```sh
+   cd mppi
+   ```
+2. Read the `README.md` inside the `mppi` directory for a detailed explanation on how to use it.
+
+## Acknowledgements
+This repository is a compilation work for enthusiasts like myself who are exploring controllers. The contents have been sourced from various references, including:
+- Official implementations of **CasADi_Python**.
+- **ROS 2 Navigation Systems**.
+
+Special thanks to the open-source community and my seniors who guided me in this process.
+
+## Contributing
+Feel free to contribute to this repository! If you have any suggestions or improvements, open an issue or submit a pull request to make this repo more informative.
+
+Happy coding!
+
