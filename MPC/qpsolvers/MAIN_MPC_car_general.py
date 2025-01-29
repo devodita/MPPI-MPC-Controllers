@@ -1,23 +1,3 @@
-'''
-LICENSE AGREEMENT
-
-In relation to this Python file:
-
-1. Copyright of this Python file is owned by the author: Mark Misin
-2. This Python code can be freely used and distributed
-3. The copyright label in this Python file such as
-
-copyright=ax_main.text(x,y,'© Mark Misin Engineering',size=z)
-that indicate that the Copyright is owned by Mark Misin MUST NOT be removed.
-
-WARRANTY DISCLAIMER!
-
-This Python file comes with absolutely NO WARRANTY! In no event can the author
-of this Python file be held responsible for whatever happens in relation to this Python file.
-For example, if there is a bug in the code and because of that a project, invention,
-or anything else it was used for fails - the author is NOT RESPONSIBLE!
-'''
-
 import numpy as np
 import matplotlib.pyplot as plt
 import support_files_car_general as sfc_g
@@ -316,7 +296,6 @@ yaw_angle_word=ax1.text(4.2,1.6,'Psi',size='10',color='k',bbox=bbox_props_angle)
 ax2=fig.add_subplot(gs[0:3,9:12],facecolor=(0.9,0.9,0.9))
 x_dot_reference=ax2.plot(t,x_dot_ref,'-b',linewidth=1)
 x_dot,=ax2.plot([],[],'-r',linewidth=1)
-plt.title('© Mark Misin Engineering')
 ax2.spines['bottom'].set_position(('data',-9999999))
 ax2.yaxis.tick_right()
 ax2.grid(True)
