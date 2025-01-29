@@ -22,7 +22,7 @@ Navigate to this directory:
    cd MPC
    ```
 
-2.**Create and activate a Conda environment:**
+2. **Create and activate a Conda environment:**
    ```sh
    conda create --name MPC python=3.8 
    conda activate MPC
