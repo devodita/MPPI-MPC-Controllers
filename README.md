@@ -17,15 +17,15 @@ Navigate to this directory:
 
 ### Running MPC
 
-1. **Create and activate a Conda environment:**
-   ```sh
-   conda create --name MPC python=3.8  # Adjust Python version if needed
-   conda activate MPC
-   ```
-
-2. **Navigate to the `MPC` directory:**
+1. **Navigate to the `MPC` directory:**
    ```sh
    cd MPC
+   ```
+
+2.**Create and activate a Conda environment:**
+   ```sh
+   conda create --name MPC python=3.8 
+   conda activate MPC
    ```
 
 3. **Inside the `MPC` directory, you will find two implementations:**
