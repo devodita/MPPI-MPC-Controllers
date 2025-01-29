@@ -17,11 +17,11 @@ git clone https://github.com/devodita/MPPI-MPC-Controllers.git
    cd MPC
    ```
 2. Inside the `MPC` directory, you will find two implementations:
-   - `cascadi/` - Uses **CasADi** for MPC implementation.
-   - `qpsolver/` - A simpler implementation using a **QP solver**.
+   - `casadi/` - Uses **CasADi** for MPC implementation.
+   - `qpsolvers/` - A simpler implementation using a **QP solver**.
 3. Choose the implementation you want to run:
    ```sh
-   cd cascadi  # or cd qpsolver
+   cd casadi  # or cd qpsolvers
    ```
 4. Run the script to see the simulations and visualizations:
    ```sh
@@ -38,6 +38,7 @@ git clone https://github.com/devodita/MPPI-MPC-Controllers.git
 ## Acknowledgements
 This repository is a compilation work for enthusiasts like myself who are exploring controllers. The contents have been sourced from various references, including:
 - Official implementations of **CasADi_Python**.
+- **Mark Misin**'s implementations and contributions to control systems.
 - **ROS 2 Navigation Systems**.
 
 Special thanks to the open-source community and my seniors who guided me in this process.
