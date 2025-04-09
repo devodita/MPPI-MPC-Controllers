@@ -1,6 +1,6 @@
 # MPPI-MPC-Controllers
 
-## MPPI, MPC & CBF Controllers
+## CBF, MPC & MPPI Controllers
 
 Welcome to my repository! This repo contains implementations of:
 - Control Barrier Function (CBF)
