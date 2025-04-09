@@ -87,8 +87,20 @@ cd MPPI-MPC-Controllers
    ```sh
    cd mppi
    ```
+2.  **Install the required dependencies:**
+     ```sh
+     pip install pygame
+     ```
+     ```sh
+     pip install gym
+     ```
 
-2. **Read the `README.md` inside the `mppi` directory** for a detailed explanation on how to use it.
+3. **Run the main script:**
+   ```sh
+   python MPPI.py
+   ```
+
+4. **Play around with the constants to explore different scenarios and configurations.
 
 ---
 
@@ -97,7 +109,6 @@ cd MPPI-MPC-Controllers
 This repository is a compilation work for enthusiasts like myself who are exploring controllers. The contents have been sourced from various references, including:
 - Official implementations of **CasADi_Python**
 - **Mark Misin**'s implementations and contributions to control systems
-- **ROS 2 Navigation Systems**
 
 Special thanks to the open-source community and my seniors who guided me in this process.
 
