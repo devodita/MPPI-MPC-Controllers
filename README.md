@@ -1,21 +1,47 @@
 # MPPI-MPC-Controllers
 
-# MPPI & MPC Controllers
+## MPPI, MPC & CBF Controllers
 
-Welcome to my repository! This repo contains implementations of Model Predictive Path Integral (MPPI) and Model Predictive Control (MPC) controllers.
+Welcome to my repository! This repo contains implementations of:
+- Control Barrier Function (CBF)
+- Model Predictive Path Integral (MPPI)
+- Model Predictive Control (MPC)
+
+---
 
 ## How to Use This Repo
 
 To get started, clone this repository to your local system:
+
 ```sh
 git clone https://github.com/devodita/MPPI-MPC-Controllers.git
 ```
+
 Navigate to this directory:
+
+```sh
+cd MPPI-MPC-Controllers
+```
+
+---
+
+## Running CBF (Control Barrier Function)
+
+1. **Navigate to the `CBF` directory:**
    ```sh
-   cd MPPI-MPC-Controllers
+   cd CBF
    ```
 
-### Running MPC
+2. **Run the main script:**
+   ```sh
+   python CBF_function.py
+   ```
+
+3. **Play around with the `config` file** to explore different scenarios and configurations.
+
+---
+
+## Running MPC
 
 1. **Navigate to the `MPC` directory:**
    ```sh
@@ -53,23 +79,32 @@ Navigate to this directory:
    python filename.py  # change filename as per requirement
    ```
 
-### Running MPPI
-1. Navigate to the `mppi` directory:
+---
+
+## Running MPPI
+
+1. **Navigate to the `mppi` directory:**
    ```sh
    cd mppi
    ```
-2. Read the `README.md` inside the `mppi` directory for a detailed explanation on how to use it.
+
+2. **Read the `README.md` inside the `mppi` directory** for a detailed explanation on how to use it.
+
+---
 
 ## Acknowledgements
+
 This repository is a compilation work for enthusiasts like myself who are exploring controllers. The contents have been sourced from various references, including:
-- Official implementations of **CasADi_Python**.
-- **Mark Misin**'s implementations and contributions to control systems.
-- **ROS 2 Navigation Systems**.
+- Official implementations of **CasADi_Python**
+- **Mark Misin**'s implementations and contributions to control systems
+- **ROS 2 Navigation Systems**
 
 Special thanks to the open-source community and my seniors who guided me in this process.
 
+---
+
 ## Contributing
+
 Feel free to contribute to this repository! If you have any suggestions or improvements, open an issue or submit a pull request to make this repo more informative.
 
-Happy coding!
-
+**Happy coding!**
