@@ -100,7 +100,7 @@ cd MPPI-MPC-Controllers
    python MPPI.py
    ```
 
-4. **Play around with the constants to explore different scenarios and configurations.
+4. Play around with the constants to explore different scenarios and configurations.
 
 ---
 
