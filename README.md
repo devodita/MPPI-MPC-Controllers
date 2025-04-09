@@ -4,8 +4,8 @@
 
 Welcome to my repository! This repo contains implementations of:
 - Control Barrier Function (CBF)
-- Model Predictive Path Integral (MPPI)
 - Model Predictive Control (MPC)
+- Model Predictive Path Integral (MPPI)
 
 ---
 
