@@ -114,6 +114,14 @@ Special thanks to the open-source community and my seniors who guided me in this
 
 ---
 
+### Further Reading
+
+You can check my ongoing work and updates in the following Google Slides presentation:
+
+👉 [Click here to view the progress](https://docs.google.com/presentation/d/1csi9oMNgO3u7VMuONpWCDqABk5728hYO6HDcmZNTCbM/edit?usp=sharing)
+
+---
+
 ## Contributing
 
 Feel free to contribute to this repository! If you have any suggestions or improvements, open an issue or submit a pull request to make this repo more informative.
