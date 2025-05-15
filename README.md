@@ -6,6 +6,7 @@ Welcome to my repository! This repo contains implementations of:
 - Control Barrier Function (CBF)
 - Model Predictive Control (MPC)
 - Model Predictive Path Integral (MPPI)
+- My project work in collaboration with DRiverless Intelligent VEhicle (DRIVE) Lab, Robotics Institute, Carnegie Mellon University under the guidance of Dr. John Dolan and Yiwei Lyu. This work is still under progress.
 
 ---
 
@@ -101,6 +102,20 @@ cd MPPI-MPC-Controllers
    ```
 
 4. Play around with the constants to explore different scenarios and configurations.
+
+---
+
+## Running the project work simulation
+
+1. **Navigate to the `Project` directory:**
+   ```sh
+   cd Project
+   ```
+
+2. **Run the simulation:**
+   ```sh
+   python run_visualization_demo.py
+   ```
 
 ---
 
